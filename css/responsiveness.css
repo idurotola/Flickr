@@ -1,0 +1,130 @@
+@media  screen and (max-width: 480px) {
+	#imageGrid>div>div img 
+	{
+		height: 105px;
+		width: 105px;
+		text-align: center;
+	}
+	#recentContainer
+ 	{
+	margin-top: 25%;
+	}
+	#nav
+	{
+ 		width: 100%;
+ 	}
+ 	input[type=text]
+ 	 {
+	 	float: left;
+	 	margin-left: 2%;
+	 	height: 30px;
+	 	width: 70%;
+	 	font-size: 18px;
+	 	color: white;
+	 	font-family: Eras Medium ITC,candara;
+ 	}
+ 	#searchBtn {
+		height:  32px;
+	 	width: 20%;
+	 	font-family: Eras Medium ITC,candara;
+	 	transition-duration: 200ms;
+ 	}
+ 	#mapper
+	{
+		margin-top: 5%;
+		width: 100%;
+		height: 60%;
+		z-index: 20;
+	}
+	#mapSlide {
+		display: none;
+	}
+	footer p{
+		margin-left: 8%;
+		margin-right: 8%;
+	}
+	#recentContainer p ,
+	#intrestingContainer p,
+	.jTscrollerContainer p
+
+	{
+	width: 100%;
+	margin-left: 5%;
+	font-weight: 150;
+	font-size: 18px;
+	}
+
+
+}
+
+@media  screen and (min-width: 640px) and (max-width: 680px) {
+	#nav
+	{
+ 		width: 100%;
+ 	}
+ 	#recentContainer 
+ 	{
+    margin-top: 10%;
+	}
+ 	#mapper
+	{
+		margin-top: 5%;
+		width: 100%;
+		height: 70%;
+		z-index: 20;
+	}
+	#mapSlide {
+		display: none;
+	}
+}
+
+@media  screen and (min-width: 768px) and (max-width: 979px) {
+	#nav
+	{
+ 		width: 60%;
+ 	}
+	#mapSlide>img 
+	{
+		height: 25%;
+		width: 60%;
+		margin-left: 25%;
+	}
+	#imageGrid>div>div img 
+	{
+		height: 105px;
+		width: 100px;
+		text-align: center;
+	}
+	#mapper
+	{
+		width: 60%;
+		max-height: 500px;
+	}
+	#mapSlide
+	 {
+		width: 28%;
+	    max-height: 500px;
+	    left:-24%;
+   
+	}
+	#mapSlideData p 
+	{
+		width: 85%;
+		font-size: 13px;
+		margin-left: 7%;
+	}
+	#mapSlideData {
+		margin-left: 16%;	
+		margin-top: 27%;
+	}
+	#recentContainer p ,
+	#intrestingContainer p,
+	.jTscrollerContainer p
+
+	{
+	width: 100%;
+	margin-left: 5%;
+	font-weight: 150;
+	font-size: 18px;
+	}
+}
