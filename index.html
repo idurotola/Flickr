@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Location</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/responsiveness.css" rel="stylesheet" type="text/css">
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script> 
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+	<div id="overlay"></div>
+	<header>
+		<ul>
+			
+		</ul>
+		<div id="nav">
+			<form action="#">
+				<input id="inputField" type="text" val=" " placeholder="Search for Images"/>
+				<input id="searchBtn" type="submit" value="Search" name="search">		
+			</form>
+		</div>
+	</header>
+	<section>
+		<div id='recentContainer'>
+			<p>Recent Photos<span></span></p>
+			<div id="recentGrid">
+				<div id="recent"></div>
+			</div>
+		</div>
+		<div id='intrestingContainer'>
+			<p>Interesting Photos<span></span></p>
+			<div id="interestingGrid">
+				<div id="interesting">
+
+				</div>
+			</div>
+		</div>
+
+		<div id="tS2" class="jThumbnailScroller"> <!-- initailly wasnt dere -->
+			<div class="jTscrollerContainer"> <!-- initailly wasnt dere -->
+				<p>Showing Results for Searched Photos<span></span></p>
+				<div id="imageGrid">
+
+					<div id="pixList" class="jTscroller">
+					<!-- the ul id is only for holding the and targeting the image loader -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!-- 
+		<div id="mapper"></div>
+		<div id="mapSlide" class="mapS">
+			<div id="mapSlideData">
+			</div>
+			<div>
+				<div id="nextImage">
+					<div id="preview"></div>
+				</div> -->
+
+			</div>
+		</div>
+	</section>
+	<footer>
+		<p>Durotola | Iyanu Tomiwa &copy 2014</p>
+	</footer>
+</body>
+</html>
